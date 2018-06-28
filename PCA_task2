@@ -1,0 +1,12 @@
+
+import random
+
+p = random.randint(1,10)
+
+while True:
+    c = int(input("Please enter a number: "));
+    if c == p:
+        print("Correct!");   
+        break
+    elif c!= p:
+        print("Wrong, try again!"); 
